@@ -1,0 +1,7 @@
+{
+  "name": "with-repository-string",
+  "version": "1.0.0",
+  "repository": "github:ajaymathur/with-repository-string",
+  "main": "index.js",
+  "license": "MIT"
+}

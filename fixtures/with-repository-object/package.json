@@ -1,0 +1,10 @@
+{
+  "name": "with-repository-object",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaymathur/with-repository-object.git"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

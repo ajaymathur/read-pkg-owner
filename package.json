@@ -1,18 +1,42 @@
 {
   "name": "read-pkg-owner",
   "version": "0.0.0",
+  "description": "Get the owner of the package",
+  "author": "Ajay Narain Mathur <ajaynarainmathur@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "package.json",
+    "package",
+    "ownner",
+    "read owner",
+    "get owner"
+  ],
+  "main": "index.js",
+  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajaymathur/read-pkg-owner"
+  },
   "scripts": {
-    "build": "babel lib -d dist"
+    "build": "babel lib -d dist",
+    "test": "ava"
   },
   "dependencies": {
     "meow": "^4.0.0",
     "read-pkg": "^3.0.0"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "fixturez": "^1.1.0",
     "flow-bin": "^0.66.0",
     "glow": "^1.2.2"
-  }
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "dist"
+  ]
 }
