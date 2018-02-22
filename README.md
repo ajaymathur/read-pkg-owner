@@ -16,9 +16,9 @@ Execute following in the repository you want owner for:
   $ read-pkg-owner
 ```
 
-## API
+### API
 
-### `cwd`
+##### `cwd`
 
 **type: string**
 
@@ -45,9 +45,9 @@ This package exports the function `getOwner` which will give you the result
   });
 ```
 
-## API
+### API
 
-### `cwd`
+#### `cwd`
 
 **type: string**
 
