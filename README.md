@@ -38,7 +38,7 @@ Example:
 This package exports the function `getOwner` which will give you the result
 
 ```js
-  const readPkgOwner = require('read-pkg-owner);
+  const readPkgOwner = require('read-pkg-owner');
 
   readPkgOwner().then(owner => {
     // do stuff with owner name
@@ -59,7 +59,7 @@ Example:
 
 ```js
   // to get owner for a repo test which is in dir Users/workspace/test
-  const readPkgOwner = require('read-pkg-owner);
+  const readPkgOwner = require('read-pkg-owner');
 
   readPkgOwner('Users/workspace/test').then(owner => {
     // do stuff with owner name
